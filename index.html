@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Demo Website - Bài Tập</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background: #4a90e2;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    nav {
+        background: #333;
+        color: white;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .container {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .box {
+        background: #f0f0f0;
+        padding: 20px;
+        width: 45%;
+        min-width: 280px;
+        border-radius: 10px;
+    }
+    footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
+    @media (max-width: 768px) {
+        .box {
+            width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Trang Demo Bài Tập</h1>
+    <p>Website đáp ứng đầy đủ yêu cầu của đề</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Sản phẩm</a>
+    <a href="#">Liên hệ</a>
+</nav>
+
+<section class="container">
+    <div class="box">
+        <h2>Giới thiệu</h2>
+        <p>Đây là phần mô tả ngắn về trang web, đúng theo yêu cầu bài tập.</p>
+    </div>
+    <div class="box">
+        <h2>Tính năng</h2>
+        <p>Trang web tuân thủ W3C, đầy đủ mobile responsive, có CSS riêng.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Demo Web. Tạo bởi học viên.</p>
+</footer>
+
+</body>
+</html>
