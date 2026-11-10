@@ -17,7 +17,7 @@ GreenLife là ứng dụng Flutter hỗ trợ người dùng quản lý cây tr�
 
 - Flutter và Dart
 - Material Design 3
-- `shared_preferences` để lưu dữ liệu cục bộ
+- 'shared_preferences' để lưu dữ liệu cục bộ
 - `image_picker` để chọn hình ảnh
 - `flutter_local_notifications` và `timezone` cho thông báo nhắc việc
 
@@ -29,9 +29,9 @@ GreenLife là ứng dụng Flutter hỗ trợ người dùng quản lý cây tr�
 
 Kiểm tra cài đặt Flutter:
 
-```bash
+'''bash
 flutter doctor
-```
+'''
 
 ## Cài đặt và chạy ứng dụng
 
